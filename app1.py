@@ -6,7 +6,7 @@ from PIL import Image
 
 
 st.title("Aplicación para Traducción Para Tus Viajes")
-st.subtitle("El idioma no será nunca más un impedimento para tus aventuras, solo toma una foto del texto que quieres traducir.")
+st.text("El idioma no será nunca más un impedimento para tus aventuras, solo toma una foto del texto que quieres traducir.")
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
