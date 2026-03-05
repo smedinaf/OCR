@@ -5,8 +5,8 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Aplicación de Traducción Para Tus Viajes")
-st.subheader("El idioma no será nunca más un impedimento para tus aventuras, solo toma una foto del texto que quieres traducir.")
+st.title("Aplicación de Lectura de Texto para Personas con Poca Visión")
+st.subheader("Si no logras ver un texto con claridad, toma una foto y este sistema te mostrará el texto en pantalla.")
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
